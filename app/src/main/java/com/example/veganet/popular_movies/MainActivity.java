@@ -30,5 +30,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.d("MainActivity", "Estoy en OnDestroy();");
+        finish();
     }
 }
