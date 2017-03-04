@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="446dp"
         app:srcCompat="@drawable/cinepolis"
-        android:scaleType="centerCrop"
+        android:scaleType="center"
         android:id="@+id/imageView"
         android:layout_weight="0.25" />
 </LinearLayout>
